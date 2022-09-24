@@ -6,7 +6,7 @@ int main()
 {
  //1. Write a program to find the Nth term of the Fibonnaci series.
 
-        /*int i, n, prev=0, cur=1, seri=0;
+        int i, n, prev=0, cur=1, seri=0;
         printf ("Enter the number \n");
         scanf ("%d",&n);
       
@@ -17,11 +17,11 @@ int main()
             cur=seri;
         
         }
-          printf("%d ",seri);*/
+          printf("%d ",seri);
 
  //2. Write a program to print first N terms of Fibonacci series 
  
-        /*int n, i, pre=0, cur=1, seri=0;
+        int n, i, pre=0, cur=1, seri=0;
         printf ("Enter the number= ");
         scanf ("%d ",&n);
         printf(" 1 ");
@@ -33,11 +33,11 @@ int main()
             cur=seri;
             
             printf(" %d ",seri);
-        }*/
+        }
  
  //3. Write a program to check whether a given number is there in the Fibonacci series or not. 
 
-         /*int i ,n , a=0, b=1, c=0;
+         int i ,n , a=0, b=1, c=0;
          printf ("Enter the number ");
          scanf("%d",&n);
 
@@ -58,12 +58,12 @@ int main()
                 break;
             }
           
-         }  */
+         } 
 
  
  //4. Write a program to calculate HCF of two numbers 
  
-            /* int i , a, b, hcf, min;
+            int i , a, b, hcf, min;
             printf("Enter the two number -");
             scanf("%d %d",&a,&b);
             
@@ -78,11 +78,11 @@ int main()
             }
             printf("%d",hcf);
 
-            */
+            
 
  //5. Write a program to check whether two given numbers are co-prime numbers or not. 
  
-            /* int i ,a ,b ,hcf, min;
+            int i ,a ,b ,hcf, min;
             printf ("Entr the two number -");
             scanf ("%d %d",&a,&b);
             min = a<b  ?  a:b ;
@@ -100,12 +100,12 @@ int main()
             else
             printf("%d and %d are not co-prime",a,b);
 
-            */
+            
  
  
  //6. Write a program to print all Prime numbers under 100. 
  
-            /*int n,i,prime;
+            int n,i,prime;
             for(n=1; n<=100; n++)
             {
                 for(i=1; i<n; i++)
@@ -118,11 +118,11 @@ int main()
                     printf(" %d ",n);
                 }
  
-            }*/
+            }
             
  //7. Write a program to print all Prime numbers between two given numbers. 
  
-            /* int a,b,i,prime,n;
+            int a,b,i,prime,n;
             printf ("Enter the two number =");
             scanf ("%d %d",&a,&b);
 
@@ -137,11 +137,11 @@ int main()
                 {
                     printf(" %d ",n);
                 }
-            }*/
+            }
  
  //8. Write a program to find next Prime number of a given number. 
  
-            /*int n, a ,i ,prime;
+            int n, a ,i ,prime;
             printf("Enter the number :- ");
             scanf ("%d",&a);
 
@@ -158,11 +158,11 @@ int main()
                     break;
                 }
                 
-            }*/
+            }
 
  //9. Write a program to check whether a given number is an Armstrong number or not. 
  
-            /*int x ,y ,num , count=0 ,rem=0 ,sum=0;
+            int x ,y ,num , count=0 ,rem=0 ,sum=0;
             printf("Enter the number :-");
             scanf("%d",&num);
 
@@ -191,17 +191,15 @@ int main()
                 printf("The number is armstrong number \n");
             }
             else
-            printf("The number is not armstrong number \n");*/
+            printf("The number is not armstrong number \n");
 
  //10. Write a program to print all Armstrong numbers under 1000
 
         int i, sum, num, count = 0;
     printf("All Armstrong number between 1 and 1000 are:\n");
-  
-    // This loop will run for 1 to 1000
     for (i = 1; i <= 1000; i++) {
         num = i;
-        // Count number of digits.
+        
         while (num != 0) {
             num /= 10;
             count++;
@@ -210,7 +208,7 @@ int main()
         sum = pow(num % 10, count)
               + pow((num % 100 - num % 10) / 10, count)
               + pow((num % 1000 - num % 100) / 100, count);
-        // Check for Armstrong Number
+        
         if (sum == i) {
             printf("%d ", i);
         }
