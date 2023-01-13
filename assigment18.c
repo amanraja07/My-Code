@@ -18,25 +18,25 @@ int main ()
 {
 //1. Write a function to calculate length of the string
 
-        /*char s[100];
+        char s[100];
         int result;
         printf ("Enter the string :-");
         fgets(s,100,stdin);
 
         result=length(s);
-        printf ("The Length of the string :- %d",(result-1));*/
+        printf ("The Length of the string :- %d",(result-1));
 
 //2. Write a function to reverse a string.
 
-        /*char str[100];
+        char str[100];
         printf ("Enter the string :-");
         fgets (str,100,stdin);
 
-        reverse(str);*/
+        reverse(str);
 
 //3. Write a function to compare two strings.
 
-        /*char a[20],b[20];
+        char a[20],b[20];
         
         printf ("Enter the 1st string :-");
         fgets (a,20,stdin);
@@ -44,50 +44,50 @@ int main ()
         printf ("Enter the 2nd string :-");
         fgets (b,20,stdin);
 
-        compare(a,b);*/
+        compare(a,b);
 
 //4. Write a function to transform string into uppercase
 
-        /*char s[100];
+        char s[100];
         printf ("Enter the string in 'LOWERCASE':-");
         fgets (s,100,stdin);
 
-        uppercase(s);*/
+        uppercase(s);
 
 //5. Write a function to transform a string into lowercase
 
-        /*char s[100];
+        char s[100];
         printf ("Enter the string in 'UPPERCASE' :-");
         fgets (s,100,stdin);
 
-        lowercase (s);*/
+        lowercase (s);
 
 //6. Write a function to check whether a given string is an alphanumeric string or not. 
 //   (Alphanumeric string must contain at least one alphabet and one digit)
 
-        /*char s[100];
+        char s[100];
         printf ("Enter the string :- ");
         fgets(s,100,stdin);
 
-        alphanumeric (s);*/
+        alphanumeric (s);
 
 //7. Write a function to check whether a given string is palindrome or not.
 
-        /*char s[100];
+        char s[100];
         printf ("Enter the string :-");
         fgets(s,100,stdin);
        
-        palindrome(s);*/
+        palindrome(s);
 
 //8. Write a function to count words in a given string
 
-        /*char s[100];
+        char s[100];
         int result=0;
         printf ("Enter the word:-");
         fgets (s,100,stdin);
 
         result=countword(s);
-        printf ("The total number of the word is %d",result);*/
+        printf ("The total number of the word is %d",result);
 
 //9. Write a function to reverse a string word wise. (For example if the given string is 
 //   “Mysirg Education Services” then the resulting string should be “Services Education 
@@ -101,11 +101,11 @@ int main ()
 
 //10. Write a function to find the repeated character in a given string.    
 
-        /*char s[100];
+        char s[100];
         printf ("Enter the string :-");
         fgets (s,100,stdin);
 
-        reapeated (s);*/
+        reapeated (s);
 
 
 
