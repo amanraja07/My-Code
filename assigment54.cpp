@@ -9,6 +9,7 @@ class ADT_Array
 
     public:
 
+// Class For ADT_Array.........................................
     ADT_Array()
     {
         cout <<"Enter the size of the Array :-";
@@ -101,7 +102,7 @@ class ADT_Array
     }
 };
 
-
+// Class For Dynmaic Array .................................
 class DynamicArray
 {
     private:
